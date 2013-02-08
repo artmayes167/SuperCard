@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12AA3F716C5777D00BDDDD2 /* back-red-75-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C12AA3F616C5777D00BDDDD2 /* back-red-75-1.png */; };
+		C12AA40016C57A8200BDDDD2 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = C12AA3F916C57A8200BDDDD2 /* Card.m */; };
+		C12AA40116C57A8200BDDDD2 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = C12AA3FB16C57A8200BDDDD2 /* Deck.m */; };
+		C12AA40216C57A8200BDDDD2 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C12AA3FD16C57A8200BDDDD2 /* PlayingCard.m */; };
+		C12AA40316C57A8200BDDDD2 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = C12AA3FF16C57A8200BDDDD2 /* PlayingCardDeck.m */; };
 		C169450A16C56445005C8063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C169450916C56445005C8063 /* UIKit.framework */; };
 		C169450C16C56445005C8063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C169450B16C56445005C8063 /* Foundation.framework */; };
 		C169450E16C56445005C8063 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C169450D16C56445005C8063 /* CoreGraphics.framework */; };
@@ -18,9 +23,19 @@
 		C169452016C56445005C8063 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C169451F16C56445005C8063 /* Default-568h@2x.png */; };
 		C169452316C56445005C8063 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C169452116C56445005C8063 /* MainStoryboard.storyboard */; };
 		C169452616C56445005C8063 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C169452516C56445005C8063 /* SuperCardViewController.m */; };
+		C169452E16C56469005C8063 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C169452D16C56469005C8063 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C12AA3F616C5777D00BDDDD2 /* back-red-75-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-red-75-1.png"; sourceTree = "<group>"; };
+		C12AA3F816C57A8200BDDDD2 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		C12AA3F916C57A8200BDDDD2 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		C12AA3FA16C57A8200BDDDD2 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		C12AA3FB16C57A8200BDDDD2 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		C12AA3FC16C57A8200BDDDD2 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		C12AA3FD16C57A8200BDDDD2 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		C12AA3FE16C57A8200BDDDD2 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		C12AA3FF16C57A8200BDDDD2 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		C169450616C56445005C8063 /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C169450916C56445005C8063 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C169450B16C56445005C8063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +52,8 @@
 		C169452216C56445005C8063 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C169452416C56445005C8063 /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
 		C169452516C56445005C8063 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
+		C169452C16C56469005C8063 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		C169452D16C56469005C8063 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +70,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C12AA40416C57A8B00BDDDD2 /* Card Model */ = {
+			isa = PBXGroup;
+			children = (
+				C12AA3F816C57A8200BDDDD2 /* Card.h */,
+				C12AA3F916C57A8200BDDDD2 /* Card.m */,
+				C12AA3FA16C57A8200BDDDD2 /* Deck.h */,
+				C12AA3FB16C57A8200BDDDD2 /* Deck.m */,
+				C12AA3FC16C57A8200BDDDD2 /* PlayingCard.h */,
+				C12AA3FD16C57A8200BDDDD2 /* PlayingCard.m */,
+				C12AA3FE16C57A8200BDDDD2 /* PlayingCardDeck.h */,
+				C12AA3FF16C57A8200BDDDD2 /* PlayingCardDeck.m */,
+			);
+			name = "Card Model";
+			sourceTree = "<group>";
+		};
 		C16944FD16C56445005C8063 = {
 			isa = PBXGroup;
 			children = (
@@ -83,12 +115,15 @@
 		C169450F16C56445005C8063 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
+				C12AA40416C57A8B00BDDDD2 /* Card Model */,
 				C169451816C56445005C8063 /* SuperCardAppDelegate.h */,
 				C169451916C56445005C8063 /* SuperCardAppDelegate.m */,
 				C169452116C56445005C8063 /* MainStoryboard.storyboard */,
 				C169452416C56445005C8063 /* SuperCardViewController.h */,
 				C169452516C56445005C8063 /* SuperCardViewController.m */,
 				C169451016C56445005C8063 /* Supporting Files */,
+				C169452C16C56469005C8063 /* PlayingCardView.h */,
+				C169452D16C56469005C8063 /* PlayingCardView.m */,
 			);
 			path = SuperCard;
 			sourceTree = "<group>";
@@ -96,6 +131,7 @@
 		C169451016C56445005C8063 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C12AA3F616C5777D00BDDDD2 /* back-red-75-1.png */,
 				C169451116C56445005C8063 /* SuperCard-Info.plist */,
 				C169451216C56445005C8063 /* InfoPlist.strings */,
 				C169451516C56445005C8063 /* main.m */,
@@ -164,6 +200,7 @@
 				C169451E16C56445005C8063 /* Default@2x.png in Resources */,
 				C169452016C56445005C8063 /* Default-568h@2x.png in Resources */,
 				C169452316C56445005C8063 /* MainStoryboard.storyboard in Resources */,
+				C12AA3F716C5777D00BDDDD2 /* back-red-75-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +214,11 @@
 				C169451616C56445005C8063 /* main.m in Sources */,
 				C169451A16C56445005C8063 /* SuperCardAppDelegate.m in Sources */,
 				C169452616C56445005C8063 /* SuperCardViewController.m in Sources */,
+				C169452E16C56469005C8063 /* PlayingCardView.m in Sources */,
+				C12AA40016C57A8200BDDDD2 /* Card.m in Sources */,
+				C12AA40116C57A8200BDDDD2 /* Deck.m in Sources */,
+				C12AA40216C57A8200BDDDD2 /* PlayingCard.m in Sources */,
+				C12AA40316C57A8200BDDDD2 /* PlayingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +341,7 @@
 				C169452B16C56445005C8063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
